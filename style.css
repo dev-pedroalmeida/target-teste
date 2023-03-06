@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -12,9 +15,9 @@ body {
     justify-content: center;
 }
 
-.content {
+.card {
     width: 500px;
-    height: 500px;
+    min-height: 200px;
 
     display: flex;
     align-items: center;
@@ -23,7 +26,30 @@ body {
 
     
     padding-top: 64px;
+    padding-bottom: 64px;
 
     border: 1px solid rgb(91, 89, 102);
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}
+
+.group {
+    display: flex;
+    gap: 12px;
+}
+
+input[type="submit"] {
+    padding: 6px 8px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 6px;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+input[type="text"] {
+    padding: 6px 10px;
+    border-radius: 6px;
 }
